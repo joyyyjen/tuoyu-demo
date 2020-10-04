@@ -1,0 +1,91 @@
+baseURL = "https://joyyyjen.github.io/tuoyu-demo"
+languageCode = "en-us"
+Title = "Tuoyu"
+theme = "navigator-hugo"
+summaryLength = 10
+[blackfriday]
+extensions = ["hardLineBreak"]
+publishDir = "docs"
+
+
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "" # your analitics ID
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+[[Params.listeLangues]]
+code = "en"
+
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Tuoyu"
+dateFormat = "January 2, 2006"
+
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "拓宇科技顧問公司"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "專業顧問講師-任克之顧問"
+subtitle1 = "～計 25 年以上製造管理實務經驗"
+description1 = "TPV 冠捷集團資深處長/HTC上海廠廠長&總經理/緯創資通全球輔導製造稽核處長/聲寶公司電子事業部副部長/明騰工業工程企劃處處長/致福電子/慶眾汽車/ 士林電機等"
+subtitle2 = "講師背景經驗"
+description2 = ""
+subtitle3 = "輔導實績"
+description3 = ""
+subtitle4 = "專業實務"
+description4 = ""
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "09-3520-6612"
+email   = "ivychen8256@gmail.com"
+
+# Site Menus
+[menu]
+# Navbar Menus
+#[[menu.nav]]
+#name    = "Home"
+#url     = "Home"
+#weight  = 2
+#[[menu.nav]]
+#name    = "service"
+#url     = "service"
+#weight  = 3
+[[menu.nav]]
+name    = "portfolio"
+url     = "portfolio"
+weight  = 4
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 5
